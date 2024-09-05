@@ -1,0 +1,12 @@
+@use './variables';
+
+h1 {
+    font-size: 170%;
+    color: variables.$text-primary-color;
+}
+
+a {
+    text-decoration: none;
+    color: variables.$text-primary-color;
+}
+

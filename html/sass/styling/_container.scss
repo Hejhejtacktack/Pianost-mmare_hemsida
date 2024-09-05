@@ -1,6 +1,19 @@
+@use './variables';
+
 .container {
     display: flex;
     flex-flow: row wrap;
     justify-content: space-around;
     align-content: center;
+    padding: 1%;
+}
+
+.container--header {
+    @extend .container;
+    background-color: variables.$primary-color;
+}
+
+.container--nav {
+    @extend .container--header;
+    padding-top: 2%;
 }

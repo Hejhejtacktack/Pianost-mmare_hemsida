@@ -1,12 +1,44 @@
-.container {
+.container, .container--header, .container--nav {
   display: flex;
   flex-flow: row wrap;
   justify-content: space-around;
   align-content: center;
+  padding: 1%;
+}
+
+.container--header, .container--nav {
+  background-color: #9c8c74;
+}
+
+.container--nav {
+  padding-top: 2%;
 }
 
 .image {
-  size: 5rem;
+  width: 20%;
+  max-width: 8rem;
+}
+
+h1 {
+  font-size: 170%;
+  color: #080410;
+}
+
+a {
+  text-decoration: none;
+  color: #080410;
+}
+
+* {
+  font-family: "Times New Roman", Times, serif;
+}
+
+body {
+  margin: 0%;
+}
+
+.hero {
+  background-image: url("../html/images/room-of-pianos.webp");
 }
 
 /*# sourceMappingURL=output.css.map */
