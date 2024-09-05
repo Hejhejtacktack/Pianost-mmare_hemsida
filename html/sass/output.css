@@ -1,4 +1,4 @@
-.container, .container--header, .container--nav {
+.container, .container--content, .container--header, .container--nav {
   display: flex;
   flex-flow: row wrap;
   justify-content: space-around;
@@ -24,8 +24,17 @@ h1 {
   color: #080410;
 }
 
+h2 {
+  color: #faf7ef;
+}
+
 a {
   text-decoration: none;
+  color: #080410;
+}
+
+p {
+  font-size: 120%;
   color: #080410;
 }
 
@@ -38,7 +47,25 @@ body {
 }
 
 .hero {
-  background-image: url("../html/images/room-of-pianos.webp");
+  /* TODO */
+  background-image: url(/html/images/room-of-pianos.webp);
+  background-color: #cccccc;
+  height: 35rem;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+button {
+  padding: 1rem;
+  padding-top: 0.3rem;
+  padding-bottom: 0.3rem;
+  border-radius: 2rem;
+  border-width: 0.1px;
+  background-color: #ecca92;
+}
+button:hover {
+  background-color: rgba(236, 201, 146, 0.8235294118);
 }
 
 /*# sourceMappingURL=output.css.map */

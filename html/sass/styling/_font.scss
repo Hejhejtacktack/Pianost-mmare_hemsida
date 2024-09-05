@@ -5,8 +5,17 @@ h1 {
     color: variables.$text-primary-color;
 }
 
+h2 {
+    color: variables.$text-secondary-color;
+}
+
 a {
     text-decoration: none;
+    color: variables.$text-primary-color;
+}
+
+p {
+    font-size: 120%;
     color: variables.$text-primary-color;
 }
 

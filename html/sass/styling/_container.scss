@@ -17,3 +17,7 @@
     @extend .container--header;
     padding-top: 2%;
 }
+
+.container--content {
+    @extend .container;
+}

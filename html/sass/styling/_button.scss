@@ -1,0 +1,15 @@
+@use './variables';
+
+button {
+    padding: 1rem;
+    padding-top: 0.3rem;
+    padding-bottom: 0.3rem;
+    border-radius: 2rem;
+    border-width: 0.1px;
+
+    background-color: variables.$secondary-color;
+
+    &:hover {
+        background-color: variables.$accent-color;
+    }
+}
